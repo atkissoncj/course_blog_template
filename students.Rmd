@@ -15,7 +15,7 @@ out <- NULL
 for (student in students) {
   name <- sub('.Rmd', '', student)
   html <- paste(name, '.html', sep = '')
-  out <- c(out, knit_expand(text = '- [{{name}}](users/outputs/{{html}})'))
+  out <- c(out, knit_expand(text = '- [{{name}}]({{html}})'))
 }
 ```
 
