@@ -1,6 +1,6 @@
 ---
 title: "Max"
-image: "images/MaxRunning.jpeg"
+image: "images/students/MaxRunning.jpeg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"

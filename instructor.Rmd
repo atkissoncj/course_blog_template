@@ -1,6 +1,6 @@
 ---
 title: "Meredith Rolfe"
-image: "images/Rolfe.jpeg"
+image: "images/instructors/Rolfe.jpeg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"

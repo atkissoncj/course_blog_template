@@ -39,12 +39,12 @@ library(postcards)
 
 ## Creating a New Post with Distill
 
-You can create a post by using the `create_post` function from Distill. It takes in [multiple arguments](https://rdrr.io/cran/distill/man/create_post.html) but I would recommend utilizing `title` and `author` at least.
+You can create a post by using the `create_post` function from Distill. It takes in [multiple arguments](https://rdrr.io/cran/distill/man/create_post.html), with `title` being required. It is also required to utilize `draft = TRUE`; this ensures that the posts you create does not update the entire site.
 
 For example I can do:
 
 ```
-create_post(title = 'iris', author = 'Hans Quiogue')
+create_post(title = 'iris', draft = TRUE)
 ```
 
 The package will easily generate an R Markdown file for you to edit and use as a template for your post. Now, you can edit the file to your liking.
