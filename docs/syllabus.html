@@ -1961,6 +1961,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     font-size: 16px;
   }
 
+  /* PDF on syllabus page */
+  embed[type="application/pdf"] {
+    height: 800px;
+    width: 700px;
+  }
+
   /* Index page title (coursename) */
 
   d-title h1{
@@ -2101,6 +2107,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       .nav-right a {
         text-align: center !important;
       }
+      /* PDF on syllabus page */
+      embed[type="application/pdf"] {
+        height: 400px;
+        width: 500px;
+      }
     }
 
   @media screen and (max-width: 360px) {
@@ -2128,6 +2139,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /* 'Student Submissions text in index */
     .posts-list-caption {
         font-size: 18px;
+    }
+    /* PDF on syllabus page */
+    embed[type="application/pdf"] {
+      height: 400px;
+      width: 300px;
     }
   }
 
@@ -2344,8 +2360,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p>This is some information about DACSS and the course. Can be prefilled in with something interesting.</p>
+<p>Edit this page with the course syllabus and/or other information. Feel free to delete the example file below as well.</p>
+<p>(Note that when knitted, it might display as ‘Couldn’t load plugin’. Simply click ‘Open in Browser’ at the top left side of the screen to view your page looks like.)</p>
 <h2 id="syllabus">Syllabus:</h2>
+<div class="layout-chunk" data-layout="l-body">
+<embed src="./example-syllabus.pdf" style="display: block; margin: auto;" type="application/pdf" />
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

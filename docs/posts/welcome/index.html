@@ -1983,6 +1983,12 @@ d-appendix {
   font-size: 16px;
 }
 
+/* PDF on syllabus page */
+embed[type="application/pdf"] {
+  height: 800px;
+  width: 700px;
+}
+
 /* Index page title (coursename) */
 
 d-title h1{
@@ -2123,6 +2129,11 @@ d-article h2 {
     .nav-right a {
       text-align: center !important;
     }
+    /* PDF on syllabus page */
+    embed[type="application/pdf"] {
+      height: 400px;
+      width: 500px;
+    }
   }
 
 @media screen and (max-width: 360px) {
@@ -2150,6 +2161,11 @@ d-article h2 {
   /* 'Student Submissions text in index */
   .posts-list-caption {
       font-size: 18px;
+  }
+  /* PDF on syllabus page */
+  embed[type="application/pdf"] {
+    height: 400px;
+    width: 300px;
   }
 }
 
