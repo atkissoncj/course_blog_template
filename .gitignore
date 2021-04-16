@@ -7,7 +7,6 @@ Icon?
 # History files
 .Rhistory
 .Rapp.history
-.Rproj
 
 # Session Data files
 .RData
@@ -42,5 +41,7 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-# R Environment Variables
+# Environment Variables
 .Renviron
+.env
+

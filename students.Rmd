@@ -4,10 +4,11 @@ site: distill::distill_website
 ---
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-# Keep this code chunk and run it to update the list of students
-library(knitr)
+####################################################
+# Keep this code chunk to keep homepage up-to-date #
+####################################################
 
-# List of students
+# List of students in users folder
 students <- list.files('users', '*.Rmd', recursive = TRUE)
 
 out <- NULL
@@ -20,9 +21,11 @@ for (student in students) {
   html <- paste(name, '.html', sep = '')
   html <- sub(' ', '-', html)
   
-  # Dynammically knits student names and corresponding links
-  out <- c(out, knit_expand(text = '- [{{name}}]({{html}})'))
+  # Dynammically creates student names and corresponding links
+  out <- c(out, knitr::knit_expand(text = '- [{{name}}]({{html}})'))
 }
+
+# Below pastes created student list when file is knitted
 ```
 
-`r paste(knit(text = out), collapse = '\n')`
+`r paste(knitr::knit(text = out), collapse = '\n')`
