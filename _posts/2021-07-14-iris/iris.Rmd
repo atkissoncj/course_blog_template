@@ -1,0 +1,35 @@
+---
+title: "New"
+description: |
+  A short description of the post.
+author:'Sanjana Checker'
+  - name: Meredith Rolfe
+    url: http://umass.edu/sbs/dacss
+date: 07-14-2021
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+Hello.
+My name is Sanjana Checker. 
+
+Look at this:
+
+1+1
+
+strawberry <- 1*1
+banana <- 1*2
+apple <- 1*3
+
+fruitList <- list("strawberry", "banana", "apple")
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+
