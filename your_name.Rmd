@@ -1,0 +1,35 @@
+---
+title: "Sanjana Checker"
+image: "frank.jpg"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Email
+    url: "mailto:email@email.com"
+output:
+  postcards::trestles
+---
+ 
+## Bio
+
+My name is Sanjana Checker. I live in the bay Area and like to play soccer. I hope to major in Computer Science or Management information sciences.
+
+## Education
+
+**Massachusetts Institute of Technology** | Cambridge, MA
+
+Ph.D. in Computer Science | September 2009 - May 2014
+
+**The University of California, Berkeley** | Berkeley, CA
+
+B.S. in Computer Science | September 2005 - May 2009
+
+## Experience
+
+**Google Brain** | Principal Investigator | January 2018 - Present
+
+**Netflix** | Research Scientist | June 2014 - December 2017
